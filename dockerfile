@@ -11,4 +11,4 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # 어플리케이션 실행 명령어
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--reload"]
+CMD ["uvicorn", "app.main:app", "--host", "223.130.138.151", "--reload"]
