@@ -2,8 +2,12 @@ from typing import Union
 
 from fastapi import FastAPI
 
-app = FastAPI()
+<<<<<<< HEAD
 
+=======
+app = FastAPI(docs_url="/api/docs", redoc_url="/api/redoc")
+
+>>>>>>> 9cec5f9c975c872b7bba67bde57d7c042fc4de4f
 
 
 
