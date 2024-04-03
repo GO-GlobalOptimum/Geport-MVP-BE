@@ -2,7 +2,9 @@ from typing import Union
 
 from fastapi import FastAPI
 
-app = FastAPI(docs_url="/api/docs", redoc_url="/api/redoc")
+
+app = FastAPI(root_path ="/api")
+
 
 
 
